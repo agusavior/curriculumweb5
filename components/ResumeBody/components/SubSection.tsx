@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react'
-import SyntaxHighlighter from 'react-syntax-highlighter'
 
 type SubSectionProps = {
     title: string,

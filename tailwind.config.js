@@ -13,6 +13,13 @@ module.exports = {
           pagebackground:  {
             DEFAULT: '#f3f4f6',
           },
+      },
+      flexGrow: {
+        '0': 0,
+        DEFAULT: 100,
+        '1': 1,
+        '50': 50,
+        '100': 100
       }
     },
   },

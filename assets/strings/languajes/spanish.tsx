@@ -5,11 +5,11 @@ cancel: 'Cancelar',
 work_experience: 'Experiencia laboral',
 
 summary: 'Resumen',
-summary_body: 'Desarrollador fullstack argentino buscando trabajo en Alemania con experiencia laboral desarrollando aplicaciones móviles, con abarcativos conocimientos en diferentes herramientas de desarrollo.',
+summary_body: 'Desarrollador fullstack argentino con experiencia laboral desarrollando aplicaciones móviles, con abarcativos conocimientos en diferentes herramientas de desarrollo.',
 
 projects: 'Projects',
 
-project1_title: 'a',
+project1_title: 'JCor Taaxii - Uber/Cabify like application',
 project1_body: 'b',
 
 project2_title: 'c',

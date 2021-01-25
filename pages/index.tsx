@@ -6,11 +6,11 @@ const IndexPage = () => (
   <Layout title="Agustín's Resume">
     <div className="text-base font-sans bg-gray-100 p-8">
 
-      <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="flex flex-row gap-4 flex-wrap sm:flex-nowrap">
 
-        <ResumeProfileSection className="section p-8 max-w-2xl min-w-16"/>
+        <ResumeProfileSection className="section flex-auto"/>
 
-        <ResumeBody className="section col-span-2"/>
+        <ResumeBody className="section flex-auto"/>
 
       </div>
 

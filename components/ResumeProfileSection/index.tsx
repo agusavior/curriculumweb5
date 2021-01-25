@@ -14,13 +14,15 @@ function ResumeProfileSection(props: any) {
       </div>
     </div>
     
-    <SocialItem image='fa fa-birthday-cake' value='25 years old' />
-    <SocialItem image='fa fa-home' value='Córdoba - Argentina' />
-    <SocialItem image='fa fa-envelope' value='agusavior@gmail.com' />
-    <SocialItem image='fa fa-phone' value='+5493512442259' />
-    <SocialItem image='fab fa-telegram' value='@agusavior' />
-    <SocialItem image='fab fa-whatsapp' value='+5493512442259' />
-    <SocialItem image='fa fa-passport' value='ciudadanía italiana' />
+    <div className='min-w-max'>
+      <SocialItem image='fa fa-birthday-cake' value='25 years old' />
+      <SocialItem image='fa fa-home' value='Córdoba - Argentina' />
+      <SocialItem image='fa fa-envelope' value='agusavior@gmail.com' />
+      <SocialItem image='fa fa-phone' value='+5493512442259' />
+      <SocialItem image='fab fa-telegram' value='@agusavior' />
+      <SocialItem image='fab fa-whatsapp' value='+5493512442259' />
+      <SocialItem image='fa fa-passport' value='ciudadanía italiana' />
+    </div>
 
     <div>
       <p className="text-2xl pt-8">
@@ -33,7 +35,7 @@ function ResumeProfileSection(props: any) {
 
         <SkillBar name="Spanish" percent={100}/>
         <SkillBar name="English" percent={80}/>
-        <SkillBar name="German" percent={10}/>
+        <SkillBar name="German" percent={15}/>
 
       </div>
       

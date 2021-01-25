@@ -1,8 +1,8 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
-import LanguageSelector from '../LanguageSelector'
+import { INTER_STRING } from 'assets/strings'
+import AptitudesList from './components/AptitudesList'
 import Section from './components/Section'
 import SubSection from './components/SubSection'
-import SubSectionTitle from './components/SubSectionTitle'
 
 export default function(props: any) {
   const { lng } = useLanguageContext()
@@ -23,6 +23,8 @@ export default function(props: any) {
             <p>
               {lng.project1_body}
             </p>
+            
+            <AptitudesList aptitudes={INTER_STRING.project1_tec} />
           </SubSection>
           <SubSection title={lng.project2_title}>
             <p>
