@@ -13,6 +13,9 @@ module.exports = {
           pagebackground:  {
             DEFAULT: '#f3f4f6',
           },
+          youtube: '#ff0202',
+          gitlab: '#fc6d26',
+          github: '#24292e',
       },
       flexGrow: {
         '0': 0,

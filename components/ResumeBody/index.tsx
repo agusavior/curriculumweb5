@@ -1,8 +1,11 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
 import { INTER_STRING } from 'assets/strings'
 import AptitudesList from './components/AptitudesList'
+import GitHubButton from './components/GitHubButton'
+import GitLabButton from './components/GitLabButton'
 import Section from './components/Section'
 import SubSection from './components/SubSection'
+import YoutubeButton from './components/YoutubeButton'
 
 export default function(props: any) {
   const { lng } = useLanguageContext()
@@ -18,33 +21,106 @@ export default function(props: any) {
           </blockquote>
         </Section>
 
-        <Section title={lng.work_experience} icon='fa-suitcase'>
-          <SubSection title={lng.project1_title}>
-            <p>
-              {lng.project1_body}
-            </p>
-            
+        <Section title={lng.experience} icon='fa-suitcase'>
+          <SubSection title={lng.project_tmob_title}>
+            <div className='flex flex-row justify-between'>
+              <p className='pr-4'>{lng.project_tmob_body}</p>
+              <div className='flex-none'>
+                <YoutubeButton url='https://youtu.be/kW26LYynfwc'/>
+              </div>
+            </div>
+            <br/>
             <AptitudesList aptitudes={INTER_STRING.project1_tec} />
           </SubSection>
-          <SubSection title={lng.project2_title}>
+
+          <SubSection title={lng.project_tgeo_title}>
             <p>
-              {lng.project2_body}
+              {lng.project_tgeo_body}
             </p>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project1_tec} />
           </SubSection>
-          <SubSection title={lng.project3_title}>
+          
+          <SubSection title={lng.project_curriculumweb5_title}>
+            <div className='flex flex-row justify-between'>
+              <p className='pr-4'>{lng.project_curriculumweb5_body}</p>
+              <div className='flex-none'>
+                <GitHubButton url='https://github.com/agusavior/curriculumweb5'/>
+              </div>
+            </div>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_curriculumweb5_apts} />
+          </SubSection>
+
+          <SubSection title={lng.project_matitest_title}>
+            <div className='flex flex-row justify-between'>
+              <p className='pr-4'>{lng.project_matitest_body}</p>
+              <div className='flex-none'>
+                <GitHubButton url='https://github.com/agusavior/matitest'/>
+              </div>
+            </div>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_matitest_apts} />
+          </SubSection>
+
+          <SubSection title={lng.project_ips_prototype_title}>
+            <div className='flex flex-row justify-between'>
+              <p className='pr-4'>{lng.project_ips_prototype_body}</p>
+              <div className='flex-none'>
+                <YoutubeButton url='https://youtu.be/8b4pavgy24U'/>
+              </div>
+            </div>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_ips_prototype_apts} />
+          </SubSection>
+
+          <SubSection title={lng.project_quickvorcio_title}>
             <p>
-              {lng.project3_body}
+              {lng.project_quickvorcio_body}
             </p>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_quickvorcio_apts} />
           </SubSection>
-          <SubSection title={lng.project4_title}>
+
+          <SubSection title={lng.project_tengoque_title}>
+            <div className='flex flex-row justify-between'>
+              <p className='pr-4'>{lng.project_tengoque_body}</p>
+              <div className='flex-none'>
+                <GitHubButton url='https://github.com/agusavior/tengoquebot'/>
+              </div>
+            </div>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_tengoque_apts} />
+          </SubSection>
+
+          <SubSection title={lng.project_kocoin_crawler_title}>
             <p>
-              {lng.project4_body}
+              {lng.project_kocoin_crawler_body}
             </p>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_kocoin_crawler_apts} />
           </SubSection>
+
+          <SubSection title={lng.project_traingular_arbitraje_title}>
+            <p>
+              {lng.project_traingular_arbitraje_body}
+            </p>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_traingular_arbitraje_apts} />
+          </SubSection>
+
+          <SubSection title={lng.project_abochat_title}>
+            <p>
+              {lng.project_abochat_body}
+            </p>
+            <br/>
+            <AptitudesList aptitudes={INTER_STRING.project_abochat_apts} />
+          </SubSection>
+
         </Section>
 
         <Section title={lng.education} icon='fa-university'>
-        <SubSection title={lng.education_subsection1_title}>
+          <SubSection title={lng.education_subsection1_title}>
             <p>
               {lng.eduaction_subsection1_body}
             </p>

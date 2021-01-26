@@ -11,4 +11,6 @@ project_kocoin_crawler_apts: ['PHP', 'Google Sheet ↔ PHP'],
 project_quickvorcio_apts: ['Java', 'Android Studio', 'Firebase'],
 project_abochat_apts: ['Java', 'Android Studio', 'Firebase'],
 project_dross_dream_apts: ['GML', 'Game Maker 8'],
+project_tengoque_apts: ['Python', 'Telegram API'],
+project_traingular_arbitraje_apts: ['Python', 'Coin Bene API', 'Telegram API'],
 }
