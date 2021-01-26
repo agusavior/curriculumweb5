@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react'
 import Head from 'next/head'
-import { LanguageContextProvider } from '@/contexts/LanguajeContext'
 import Header from './Header'
 
 type Props = {

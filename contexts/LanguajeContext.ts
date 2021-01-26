@@ -1,5 +1,5 @@
-import languages, { Language } from 'assets/strings/languajes';
-import spanish from 'assets/strings/languajes/spanish';
+import languages, { Language } from 'utils/strings/languajes';
+import spanish from 'utils/strings/languajes/spanish';
 import { useState } from 'react';
 import { createContextFromArrow } from '.';
 

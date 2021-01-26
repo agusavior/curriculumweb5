@@ -1,6 +1,5 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
-import React, { ReactNode } from 'react'
-import SyntaxHighlighter from 'react-syntax-highlighter'
+import React from 'react'
 
 type Props = {
     url: string,

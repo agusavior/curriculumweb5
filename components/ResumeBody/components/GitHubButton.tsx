@@ -1,7 +1,6 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
 import React from 'react'
 
-
 type Props = {
     url: string,
 }

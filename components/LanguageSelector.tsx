@@ -1,5 +1,5 @@
 import { useLanguageContext } from "@/contexts/LanguajeContext";
-import languages from "assets/strings/languajes";
+import languages from "utils/strings/languajes";
 import { StringStringMap } from "utils/customTypes";
 
 export default function() {
