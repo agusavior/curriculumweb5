@@ -1,8 +1,12 @@
 import SocialItem from './components/SocialItem';
 import SocialIcon from './components/SocialIcon';
 import SkillBar from './components/SkillBar';
+import { useLanguageContext } from '@/contexts/LanguajeContext';
 
 function ResumeProfileSection(props: any) {
+
+  const { lng } = useLanguageContext()
+
   return (
    
     <div {...props}>
@@ -21,7 +25,7 @@ function ResumeProfileSection(props: any) {
       <SocialItem image='fa fa-phone' value='+5493512442259' />
       <SocialItem image='fab fa-telegram' value='@agusavior' />
       <SocialItem image='fab fa-whatsapp' value='+5493512442259' />
-      <SocialItem image='fa fa-passport' value='ciudadanía italiana' />
+      <SocialItem image='fa fa-passport' value={lng.citizenship} />
     </div>
 
     <div>

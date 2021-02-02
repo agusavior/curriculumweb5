@@ -7,7 +7,7 @@ type StringLanguageMap = { [index: string]: Language }
 const languages: StringLanguageMap = {
     'es': spanish,
     'en': english,
-    'de': german
+    // 'de': german   TO-DO
 };
 
 export default languages;

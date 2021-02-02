@@ -9,7 +9,7 @@ type SectionProps = {
 export default function({title, icon, children}: SectionProps) {
     return (
         <>
-        <p className="text-3xl pb-4">
+        <p className="text-4xl pb-4">
         <i className={`fa ${icon} fa-fw w3-margin-right w3-xxlarge text-primary`}></i>
             {title}
         </p>

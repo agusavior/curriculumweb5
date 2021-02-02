@@ -1,69 +1,72 @@
-export default {
+import spanish from "./spanish"
+
+const english = {
+
 code: 'en',
 
-summary: 'Resumen',
-summary_body: 'Desarrollador fullstack argentino buscando trabajo en Alemania con experiencia laboral desarrollando aplicaciones móviles, con amplios econocimientos en diferentes herramientas de desarrollo.',
+summary: 'Summary',
+summary_body: 'Argentine fullstack developer with work experience developing mobile applications, and with extensive knowledge in different development tools.',
 
-work_experience: 'Experience laboral',
+citizenship: 'Italian citizenship',
+
+language: 'Language',
+
 experience: 'Experience',
 
-projects: 'Projects',
-
 watch_it_on_youtube: 'Watch it on Youtube',
-open_repository: 'Ver repositorio',
+open_repository: 'Open repository',
 
-project_tmob_title: 'Taaxii - Aplicación móvil para viajar',
-project_tmob_body: 'Actualmente en curso. El trabajo consistió en re-factorizar una aplicación que solía tener una mala calidad, y actualmente el trabajo es de mantenimiento. La aplicación es para una empresa llamada JCor, en Argentina. La aplicación se encuentra actualmente en Google Play, pero su uso es reservado y no está abierta al público. Las calificaciones dentro de Google Play son calificaiones que pertencen a la aplicación antigua.',
+billable: 'Billable',
+current: 'Current',
+prototype: 'Prototype',
+personal: 'Personal',
 
-project_curriculumweb5_title: 'Esta página',
-project_curriculumweb5_body: 'Aplicación web que contiene un curriculum.',
+project_tmob_title: 'Taaxii - Mobile app for transportation',
+project_tmob_body: 'The work consisted in re-implementing (make againg) an application. Currently the work is for mantenience. The app owner is a Argentine corporation called JCor. Today the app can be founded in Google Play but its use is reserver for some Argentine clients. The Google Play rating of the app is low because the old version.',
 
-project_matitest_title: 'Mini backend con Node.js',
-project_matitest_body: 'Pequeño backend de prueba, que se conecta a una base de datos y es capaz de administrar usuarios y tareas.',
+project_tgeo_title: 'Tgeo - Mobile app for drivers',
+project_tgeo_body: 'The work consists in mantenience and add features to an mobile app used for drivers (the drivers of the Taaxii app) to match with people.',
+
+project_curriculumweb5_title: 'This website - Web resume of me',
+project_curriculumweb5_body: 'This web application you are using. It\'s hosted inside an Amazon server, and it has a custom domain.',
+
+project_matitest_title: 'Small Node.js backend',
+project_matitest_body: 'Small backend for test a encrypted authentication, cappable of manage entities in a database, like users and tasks.',
 
 project_kocoin_crawler_title: 'KuCoin Crawler',
-project_kocoin_crawler_body: 'Crawler informático para una empresa de criptonmonedas llamada KoCoin que extraía información de una página y guardaba datos en un Google Sheet.',
+project_kocoin_crawler_body: 'Crawler that read Crawler informático para una empresa de criptonmonedas llamada KoCoin que extraía información de una página y guardaba datos en un Google Sheet.',
 
-project_traingular_arbitraje_title: 'Arbitraje triangular en criptomonedas',
-project_traingular_arbitraje_body: 'Bot que detectaba oportunidades de mercado aplicando estrategia de arbitraje triangular en un exchange llamado Coin Bene. La ganancia era ínfima y por lo tanto se detuvo el proyecto.',
+project_traingular_arbitraje_title: 'Trading bot in crypto exchange',
+project_traingular_arbitraje_body: 'Bot looking for opportunities using an market strategy called Triangular Arbitraje. The bot has been connected to an cryptocurrency exchange called Coin Bene. The project has been stoped because the the profit was negligible.',
 
-project_tengoque_title: 'Tengoque - Bot de Telegram',
-project_tengoque_body: 'Bot de Telegram para hacer administrar recordatorios en lenguaje natural. Actualmente se encuentra encendido dentro de una instancia de Amazon, se puede buscar @tengo_que_bot en el buscador de Telegram para usarlo.',
+project_tengoque_title: 'Tengoque - Telegram bot',
+project_tengoque_body: 'Telegram bot for manage reminders, using natural langage for process each of them. Currently is online and it could be found it in Telegram (search @tengo_que_bot inside Telegram searcher).',
 
-project_ips_prototype_title: 'Prototipo IPS - Aplicación para comprar caños',
-project_ips_prototype_body: 'Aplicación de prototipo que se utilizó para una propuesta dentro una empresa de caños en Argentina.',
+project_ips_prototype_title: 'IPS Prototype - Mobile app to buy pipes',
+project_ips_prototype_body: 'Prototype mobile app that has been presented in a Argentine company called IPS.',
 
-project_tgeo_title: 'Tgeo - Aplicación móvil para viajar',
-project_tgeo_body: 'Actualmente en curso. El trabajo consiste en mantener y añadir funcionalidades a una aplicación que es la utilizada por los choferes que corresponden a la aplicación Taaxii.',
+project_dragon_debate_title: 'Dragon Debate - Personal Website',
+project_dragon_debate_body: 'Website for a personal use. It ran inside a homemade server. It has been used to store my personal \'debates audio files\'. Also it had a user autentication system, you could create users and sing in into it.',
 
-project_abochat_title: 'Abo-chat - Aplicación móvil',
-project_abochat_body: 'Fue un trabajo temporal de unos días. Consistió en añadir funcionalidades a una aplicación que consistía en chatear con abogados.',
+project_abochat_title: 'Abo-chat - Mobile app chatting with lawyers',
+project_abochat_body: 'Short term work (days or so) that consisted in add features to an app. The app is no longer available in Google Play because Argentine politics.',
 
-project_quickvorcio_title: 'Quickvorcio - Aplicación móvil para divorciarse',
-project_quickvorcio_body: 'Fue un trabajo temporal de aproximadamente un mes. Consistió en añadir funcionalidades a una aplicación. La aplicación actualmente no existe en Google Play debido a cuestiones políticas de Argentina.',
+project_quickvorcio_title: 'Quickvorcio - Mobile app for divorcement',
+project_quickvorcio_body: 'Short term work (a month or so) that consisted in add features to an app. The app is no longer available in Google Play because Argentine politics.',
 
-project3_title: 'e',
-project3_body: 'f',
 
-project4_title: 'e',
-project4_body: 'f',
-
-education: 'Educación',
-education_body: `
-Universidad pública argentina incompleta. 37% de la carrera Licenciatura en Ciencias de la Computación en FaMAF. Un promedio de 8,22. sin aplazos.
-
-Secundario: Bachillerato Orientado en la Producción de Bienes y Servicios con Especialidad Eléctrica y Electrónica.
-`,
-education_subsection1_title: 'Secundario completo',
+education_subsection1_title: 'Undergraduate degree',
 eduaction_subsection1_body: `
-Bachillerato Orientado en la Producción de Bienes y Servicios con Especialidad Eléctrica y Electrónica.
+Bachelor's degree Oriented in the Production of Goods and Services with Electrical and Electronic Specialty.
 `,
-education_subsection2_title: 'Universitario incompleto',
+education_subsection2_title: 'Incomplete major in Computer Science.',
 eduaction_subsection2_body: `
-37% de Licenciatura en Ciencias de la Computación en FaMAF, Universidad argentina pública de Matemáticas. Promedio de 8,22. Sin aplazos.
+Only a 37% of the career has been completed. It has been taken in a Argentine public university of mathematics, called FaMAF, with a grade point average of 8,22 with no failings.
 `,
 
-spanish: 'Español',
-english: 'Inglés',
-german: 'Alemán',
+spanish: 'Spanish',
+english: 'English',
+german: 'German',
 }
+
+export default {...spanish, ...english}

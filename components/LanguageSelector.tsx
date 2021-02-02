@@ -12,18 +12,22 @@ export default function() {
     }
 
     return (
-        <div className='border-2 border-pagebackground hover:border-primary'>
-        <select
-            className=''
-            defaultValue={lng.code} 
-            onChange={(e) => setLngByLangId(e.target.value)} 
-        >
-        {
-            Object.keys(languages).map(langId =>
-                <option key={langId} value={langId}>{fromLangIdToStringResource[langId]}</option>
-            )
-        }
-        </select>
+    <div className='shadow-sm p-2'>
+        <p className='mr-4 inline'>{lng.language}: </p>
+        <div className='inline border-2 border-pagebackground hover:border-primary'>
+            <select
+                className=''
+                defaultValue={lng.code} 
+                onChange={(e) => setLngByLangId(e.target.value)} 
+            >
+            {
+                Object.keys(languages).map(langId =>
+                    <option key={langId} value={langId}>{fromLangIdToStringResource[langId]}</option>
+                )
+            }
+            </select>
         </div>
+    </div>
+
     )
 }

@@ -1,9 +1,8 @@
-import LanguageSelector from "./LanguageSelector";
-
 export default function() {
     return (
       <header className='bg-pagebackground flex justify-end'>
           {/**
+           * EXAMPLE (TO-DO):
                    <nav>
           <Link href="/">
             <a>Home</a>
@@ -17,8 +16,6 @@ export default function() {
           <a href="/api/users">Users API</a>
         </nav>
            */}
-        <p className='pr-4'>Language:</p>
-        <LanguageSelector/>
       </header>
     )
 }

@@ -5,7 +5,7 @@ type AptitudeListProps = {
 function Aptitude(aptitude: string) {
     return (
         
-        <div className='rounded-full bg-gray-200 p-2 pt-1 pb-1'>
+        <div className='rounded-full bg-gray-100 p-2 pt-1 pb-1'>
             {aptitude}
         </div>
         

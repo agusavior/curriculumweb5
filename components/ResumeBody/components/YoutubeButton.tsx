@@ -11,7 +11,7 @@ export default function({ url }: Props) {
     return (
         <button
         onClick={() => window.open(url)}
-        className='bg-youtube rounded p-2'
+        className='bg-youtube rounded p-2 mt-4 md:mt-0 md:ml-4'
         >
           <p className='text-white'>
           <i className="fab fa-youtube pr-2">

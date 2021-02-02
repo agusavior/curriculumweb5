@@ -1,9 +1,9 @@
 import languages, { Language } from 'utils/strings/languajes';
-import spanish from 'utils/strings/languajes/spanish';
 import { useState } from 'react';
 import { createContextFromArrow } from '.';
+import english from 'utils/strings/languajes/english';
 
-const defaultLanguage: Language = spanish;
+const defaultLanguage: Language = english;
 
 export const [useLanguageContext, LanguageContextProvider] = createContextFromArrow(() => {
     const [lng, setLng] = useState<Language>(defaultLanguage);

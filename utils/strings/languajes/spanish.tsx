@@ -2,16 +2,22 @@ export default {
 code: 'es',
 continue: 'Continuar',
 cancel: 'Cancelar',
-work_experience: 'Experiencia laboral',
 experience: 'Experiencia',
 
-summary: 'Resumen',
-summary_body: 'Desarrollador fullstack argentino con experiencia laboral desarrollando aplicaciones móviles, con abarcativos conocimientos en diferentes herramientas de desarrollo.',
+language: 'Lenguaje',
 
-projects: 'Projects',
+summary: 'Resumen',
+summary_body: 'Desarrollador fullstack argentino con experiencia laboral en aplicaciones móviles, con amplios econocimientos en diferentes herramientas de desarrollo.',
+
+citizenship: 'Ciudadanía italiana',
 
 watch_it_on_youtube: 'Ver en Youtube',
 open_repository: 'Ver repositorio',
+
+billable: 'Laboral',
+current: 'Actual',
+prototype: 'Prototipo',
+personal: 'Personal',
 
 project_tmob_title: 'Taaxii - Aplicación móvil para viajar',
 project_tmob_body: 'Actualmente en curso. El trabajo consistió en re-factorizar una aplicación que solía tener una mala calidad, y actualmente el trabajo es de mantenimiento. La aplicación es para una empresa llamada JCor, en Argentina. La aplicación se encuentra actualmente en Google Play, las calificaciones pertencen a la aplicación antigua.',
@@ -37,13 +43,16 @@ project_quickvorcio_title: 'Quickvorcio - Aplicación móvil para divorciarse',
 project_quickvorcio_body: 'Fue un trabajo temporal de aproximadamente un mes. Consistió en añadir funcionalidades a una aplicación. La aplicación actualmente no existe en Google Play debido a cuestiones políticas de Argentina.',
 
 project_kocoin_crawler_title: 'KuCoin Crawler',
-project_kocoin_crawler_body: 'Crawler informático para una empresa de criptonmonedas llamada KoCoin que extraía información de una página y guardaba datos en un Google Sheet.',
+project_kocoin_crawler_body: 'Crawler informático para una empresa de criptomonedas llamada KoCoin que extraía información de una página y guardaba datos en un Google Sheet.',
 
 project_traingular_arbitraje_title: 'Arbitraje triangular en criptomonedas',
 project_traingular_arbitraje_body: 'Bot que detectaba oportunidades de mercado aplicando estrategia de arbitraje triangular en un exchange llamado Coin Bene. La ganancia era ínfima y por lo tanto se detuvo el proyecto.',
 
 project_tengoque_title: 'Tengoque - Bot de Telegram',
 project_tengoque_body: 'Bot de Telegram de uso personal pero abierto al público. Sirve para administrar recordatorios en lenguaje natural. Para usar, buscar @tengo_que_bot en el buscador de Telegram.',
+
+project_dragon_debate_title: 'Dragón Debate - Página para guardar debates',
+project_dragon_debate_body: 'Página de uso personal que corría dentro de un servidor propio. Usado para archivar mis debates. Además tenía un sistema de usuarios con autenticación.',
 
 education: 'Educación',
 education_body: `
