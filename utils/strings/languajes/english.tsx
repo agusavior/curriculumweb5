@@ -13,6 +13,14 @@ language: 'Language',
 
 experience: 'Experience',
 
+education: 'Education',
+
+languages: 'Languages',
+
+programming_languages: 'Programming languages',
+programming: 'Programming',
+contact_me: 'Contact me',
+
 watch_it_on_youtube: 'Watch it on Youtube',
 open_repository: 'Open repository',
 
@@ -22,7 +30,7 @@ prototype: 'Prototype',
 personal: 'Personal',
 
 project_tmob_title: 'Taaxii - Mobile app for transportation',
-project_tmob_body: 'The work consisted in re-implementing (make againg) an application. Currently the work is for mantenience. The app owner is a Argentine corporation called JCor. Today the app can be founded in Google Play but its use is reserver for some Argentine clients. The Google Play rating of the app is low because the old version.',
+project_tmob_body: 'The work consisted in re-implementing (make again) an application. Currently the work is for mantenience. The app owner is a Argentine corporation called JCor. Today the app can be founded in Google Play but its use is reserver for some Argentine clients. The Google Play rating of the app is low because the old version.',
 
 project_tgeo_title: 'Tgeo - Mobile app for drivers',
 project_tgeo_body: 'The work consists in mantenience and add features to an mobile app used for drivers (the drivers of the Taaxii app) to match with people.',

@@ -1,10 +1,14 @@
 type CardProps = {
-  image: string
+  image: string,
+  url: string
 }
 
-export default function({image}: CardProps) {
+export default function({ image, url }: CardProps) {
   return (
-    <i className={`fa ${image} p-0.5 w3-hover-opacity`}></i>
+    <i 
+    onClick={() => window.open(url)}
+    className={`${image} p-0.5 w3-hover-opacity`}
+    />
   )
 }
 

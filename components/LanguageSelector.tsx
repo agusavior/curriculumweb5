@@ -12,7 +12,7 @@ export default function() {
     }
 
     return (
-    <div className='shadow-sm p-2'>
+    <div className='p-2 py-4'>
         <p className='mr-4 inline'>{lng.language}: </p>
         <div className='inline border-2 border-pagebackground hover:border-primary'>
             <select

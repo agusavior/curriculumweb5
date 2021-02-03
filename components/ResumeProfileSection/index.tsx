@@ -1,7 +1,10 @@
 import SocialItem from './components/SocialItem';
 import SocialIcon from './components/SocialIcon';
-import SkillBar from './components/SkillBar';
+import LanguageBar from './components/LanguageBar';
+import PLanguageBar from './components/PLanguageBar';
 import { useLanguageContext } from '@/contexts/LanguajeContext';
+import LanguageSelector from '../LanguageSelector';
+import ContactForm from './components/ContactForm';
 
 function ResumeProfileSection(props: any) {
 
@@ -10,6 +13,10 @@ function ResumeProfileSection(props: any) {
   return (
    
     <div {...props}>
+
+    <LanguageSelector/>
+
+    <hr/>
 
     <div className="p-4 flex justify-center">
       <div className="max-w-xs">
@@ -32,23 +39,16 @@ function ResumeProfileSection(props: any) {
       <p className="text-2xl pt-8">
         <i className="fa fa-globe fa-fw w3-margin-right text-2xl text-primary">
         </i>
-        Languages
+        {lng.languages}
       </p>
       
-      <div className="pt-2 pb-2">
-
-        <SkillBar name="Spanish" percent={100}/>
-        <SkillBar name="English" percent={80}/>
-        <SkillBar name="German" percent={15}/>
-
+      <div className="pt-2 pb-2 min-w-max">
+        <LanguageBar name={lng.spanish} percent={100}/>
+        <LanguageBar name={lng.english} percent={80}/>
+        <LanguageBar name={lng.german} percent={0}/>
       </div>
-      
-      <div className="w3-container w3-padding-16 w3-center w3-opacity w3-xlarge">
-        <SocialIcon image='fa-facebook-official'/>
-        <SocialIcon image='fa-instagram'/>
-        <SocialIcon image='fa-twitter'/>
-        <SocialIcon image='fa-linkedin'/>
-      </div>
+
+
 
       <div className="w3-light-grey w3-round-xlarge">
         <div className="w3-round-xlarge w3-teal"></div>
@@ -58,6 +58,50 @@ function ResumeProfileSection(props: any) {
         <div className="w3-round-xlarge w3-teal"></div>
       </div>
       <br/>
+
+      <p className="text-2xl pt-8 min-w-max">
+        <i className="fa fa-code fa-fw w3-margin-right text-2xl text-primary">
+        </i>
+        {lng.programming_languages}
+      </p>
+
+      <div className="pt-2 pb-2 min-w-max">
+
+        <PLanguageBar name="Python" percent={100}/>
+        <PLanguageBar name="Kotlin" percent={100}/>
+        <PLanguageBar name="Typescript" percent={100}/>
+        <PLanguageBar name="Java" percent={100}/>
+        <PLanguageBar name="Javascript" percent={90}/>
+        <PLanguageBar name="Go" percent={90}/>
+        <PLanguageBar name="PHP" percent={87}/>
+        <PLanguageBar name="C#" percent={85}/>
+        <PLanguageBar name="C++" percent={20}/>
+        <PLanguageBar name="C" percent={50}/>
+        <PLanguageBar name="CSS" percent={45}/>
+        <PLanguageBar name="HTML" percent={80}/>
+        <PLanguageBar name="Haskell" percent={68}/>
+        <PLanguageBar name="Julia" percent={70}/>
+        <PLanguageBar name="OCaml" percent={50}/>
+        <PLanguageBar name="Lua" percent={100}/>
+        <PLanguageBar name="MQL4" percent={80}/>
+        <PLanguageBar name="GML" percent={100}/>
+        
+      </div>
+
+      <p className="text-2xl pt-8 min-w-max">
+        <i className="fa fa-paper-plane fa-fw w3-margin-right text-2xl text-primary">
+        </i>
+        {lng.contact_me}
+      </p>
+
+      <br/>
+      <ContactForm/>
+
+      <div className="w3-container w3-padding-16 w3-center w3-opacity w3-xlarge">
+        <SocialIcon image='fab fa-facebook' url='https://www.facebook.com/agustin.j.orlando'/>
+        <SocialIcon image='fab fa-instagram' url='https://www.instagram.com/agusavior/'/>
+        <SocialIcon image='fab fa-linkedin' url='https://www.linkedin.com/in/agustín-orlando'/>
+      </div>
     </div>
   </div>
   )

@@ -14,6 +14,13 @@ citizenship: 'Ciudadanía italiana',
 watch_it_on_youtube: 'Ver en Youtube',
 open_repository: 'Ver repositorio',
 
+languages: 'Lenguajes',
+
+contact_me: 'Contáctame',
+
+programming_languages: 'Lenguajes de programación',
+programming: 'Programación',
+
 billable: 'Laboral',
 current: 'Actual',
 prototype: 'Prototipo',
