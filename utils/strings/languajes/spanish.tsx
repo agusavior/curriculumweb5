@@ -7,7 +7,7 @@ experience: 'Experiencia',
 language: 'Lenguaje',
 
 summary: 'Resumen',
-summary_body: 'Desarrollador fullstack argentino con experiencia laboral en aplicaciones móviles, con amplios econocimientos en diferentes herramientas de desarrollo.',
+summary_body: 'Desarrollador fullstack argentino con experiencia laboral en aplicaciones móviles, con amplios conocimientos en diferentes herramientas de desarrollo.',
 
 citizenship: 'Ciudadanía italiana',
 
@@ -17,6 +17,13 @@ open_repository: 'Ver repositorio',
 languages: 'Lenguajes',
 
 contact_me: 'Contáctame',
+
+contact_me_description: 'Puedes usar este email: agusavior@gmail.com, o puedes usar el siguiente formulario.',
+contact_me_body_placeholder: 'Necesito una app',
+your_contact: 'Tu contacto',
+some_optional_message: 'Algún mensaje opcional',
+send: 'Enviar',
+
 
 programming_languages: 'Lenguajes de programación',
 programming: 'Programación',

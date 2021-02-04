@@ -19,7 +19,14 @@ languages: 'Languages',
 
 programming_languages: 'Programming languages',
 programming: 'Programming',
+
 contact_me: 'Contact me',
+contact_me_description: 'Send me an email: agusavior@gmail.com, or you just can use the next form.',
+contact_me_body_placeholder: 'I need your help',
+your_contact: 'Your contact',
+some_optional_message: 'Some optional message',
+send: 'Send',
+
 
 watch_it_on_youtube: 'Watch it on Youtube',
 open_repository: 'Open repository',

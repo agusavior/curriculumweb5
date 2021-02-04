@@ -1,3 +1,4 @@
+import { useLanguageContext } from '@/contexts/LanguajeContext';
 import axios from 'axios';
 import { FormEvent, useState } from 'react';
 
@@ -6,6 +7,8 @@ import { FormEvent, useState } from 'react';
 export default function() {
   let [ email, setEmail ] = useState('')
   let [ body, setBody ] = useState('')
+
+  let { lng } = useLanguageContext()
 
   function sendMessageToTelegramBot(message: string) {
     axios
@@ -18,7 +21,9 @@ export default function() {
     e.preventDefault()
     setBody('')
     setEmail('')
-    sendMessageToTelegramBot(email + '\n' + body)
+    if (email !== '' || body !== '') {
+      sendMessageToTelegramBot(email + '\n' + body)
+    }
   }
 
   return (
@@ -27,7 +32,9 @@ export default function() {
     onSubmit={submit}
     >
     <label>
-      <span className="text-gray-700">Your contact:</span>
+      <p>{ lng.contact_me_description }</p>
+      <br/>
+      <span className="text-gray-700">{ lng.your_contact }</span>
       <input
         type="email"
         className="mt-1 w-full p-2 mt-4 block appearance-none placeholder-blue-300 border border-gray-400 rounded-md w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-blue-200"
@@ -38,20 +45,20 @@ export default function() {
       <br/>
       </label>
       <label>
-      <span className="text-gray-700">Some optional message:</span>
+      <span className="text-gray-700">{ lng.some_optional_message }</span>
       <textarea
         className="mt-1 w-full p-2 mt-4 block appearance-none placeholder-blue-300 border border-gray-400 rounded-md w-full py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-blue-200"
-        placeholder={"Hi, I have some job for you"}
+        placeholder={lng.contact_me_body_placeholder}
         style={{resize: 'none'}}
         value={body}
         onChange={(e) => setBody(e.target.value)}
       />
       </label>
-
-      <button className='bg-primary text-white text-xl active:bg-green-300 rounded p-2 mt-4'> 
-        Send
+      <br/>
+      <button className='bg-primary text-white text-xl active:bg-primary-light rounded p-2 mt-4'> 
+        { lng.send }
       </button>
-
+      <br/>
     </form>
   )
 }

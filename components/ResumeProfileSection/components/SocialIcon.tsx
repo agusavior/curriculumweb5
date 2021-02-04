@@ -7,7 +7,7 @@ export default function({ image, url }: CardProps) {
   return (
     <i 
     onClick={() => window.open(url)}
-    className={`${image} p-0.5 w3-hover-opacity`}
+    className={`${image} m-0.5 w3-hover-opacity`}
     />
   )
 }

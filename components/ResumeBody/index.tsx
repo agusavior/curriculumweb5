@@ -208,7 +208,6 @@ export default function(props: any) {
           <br/><br/>
           <p>{lng.eduaction_subsection2_body}</p>
           <br/>
-
         </Section>
       </div>
   </div>
