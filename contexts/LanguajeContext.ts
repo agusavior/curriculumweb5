@@ -1,7 +1,7 @@
-import languages, { Language } from 'utils/strings/languajes';
+import languages, { Language } from 'utils/strings/languages';
 import { useState } from 'react';
 import { createContextFromArrow } from '.';
-import english from 'utils/strings/languajes/english';
+import english from 'utils/strings/languages/english';
 
 const defaultLanguage: Language = english;
 
@@ -9,7 +9,6 @@ export const [useLanguageContext, LanguageContextProvider] = createContextFromAr
     const [lng, setLng] = useState<Language>(defaultLanguage);
 
     function setLngByLangId(langId: string) {
-        console.log('lenguage camadio')
         setLng(languages[langId])
     }
 

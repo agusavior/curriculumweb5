@@ -97,7 +97,7 @@ function ResumeProfileSection(props: any) {
       <br/>
       <ContactForm/>
 
-      <div className="w3-container w3-padding-16 w3-center w3-opacity w3-xlarge">
+      <div className="text-center opacity-50 text-2xl">
         <SocialIcon image='fab fa-facebook' url='https://www.facebook.com/agustin.j.orlando'/>
         <SocialIcon image='fab fa-instagram' url='https://www.instagram.com/agusavior/'/>
         <SocialIcon image='fab fa-linkedin' url='https://www.linkedin.com/in/agustín-orlando'/>
