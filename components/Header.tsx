@@ -1,3 +1,5 @@
+// Implement this if you want a nav header
+
 export default function() {
     return (
       <header className='bg-pagebackground flex justify-end'>

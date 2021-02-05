@@ -7,7 +7,7 @@ export default function({ image, url }: CardProps) {
   return (
     <i 
     onClick={() => window.open(url)}
-    className={`${image} m-0.5 w3-hover-opacity cursor-pointer`}
+    className={`${image} m-0.5 opacity-50 hover:opacity-100 cursor-pointer text-3xl`}
     />
   )
 }
