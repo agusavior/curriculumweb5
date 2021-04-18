@@ -91,21 +91,6 @@ export default function(props: any) {
 
           <br/>
           <H2>
-            {lng.project_tmob_title}  
-          </H2>
-          { currentComponent }
-          { billableComponent }
-          <br/><br/>
-          <TextWithButton>
-            <p>{lng.project_tmob_body}</p>
-            <YoutubeButton url='https://youtu.be/kW26LYynfwc'/>
-          </TextWithButton>
-          <br/>
-          <AptitudesList aptitudes={INTER_STRING.project_tmob_apts} />
-          <br/>
-
-          <br/>
-          <H2>
             {lng.project_tgeo_title}  
           </H2>
           { currentComponent }
@@ -214,7 +199,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_abochat_apts} />
           <br/>
-          
+
           <br/>
           <H2>
             {lng.project_dragon_debate_title}  
