@@ -1,6 +1,7 @@
 // International strings
 export const INTER_STRING = {
 project1_tec: ['Kotlin', 'Java', 'Android Studio', 'MVVM', 'Material', 'Retrofit', 'Room', 'Firebase Messaging'],
+project_inweb: ['Typescript', 'Vue 2', 'Tailwind'],
 project_tmob_apts: ['Kotlin', 'Java', 'Android Studio', 'MVVM', 'Material', 'Retrofit', 'Room', 'Firebase'],
 project_tgeo_apts: ['Kotlin', 'Java'],
 project_curriculumweb5_apts: ['React', 'Next.js', 'Typescript', 'React Hooks','EC2 AWS', 'Tailwind'],

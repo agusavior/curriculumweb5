@@ -36,8 +36,11 @@ current: 'Current',
 prototype: 'Prototype',
 personal: 'Personal',
 
+project_inweb_title: 'Inweb - Frontend form to create reservations',
+project_inweb_body: 'Design and build a specific feature inside a website for make trip reservations.',
+
 project_tmob_title: 'Taaxii - Mobile App for Transportation',
-project_tmob_body: 'The job consisted in refactoring an application. It mainly consists of maintenance tasks now. The app owner is an Argentinian company called JCor. Today the app can be found on Google Play but its use is restricted to a few Argentinian clients. Its Google Play rating is low because of its old version.',
+project_tmob_body: 'The job consisted in refactoring an application. It mainly consists of maintenance tasks now. The app owner is an Argentinian company called Taaxii. Today the app can be found on Google Play but its use is restricted to a few Argentinian clients. Its Google Play rating is low because of its old version.',
 
 project_tgeo_title: 'Tgeo - Mobile App for Drivers',
 project_tgeo_body: 'The job consists in maintaining and adding features to a mobile app used by drivers (of the Taaxii app) to match with people.',

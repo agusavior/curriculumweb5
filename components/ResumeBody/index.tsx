@@ -49,7 +49,7 @@ export default function(props: any) {
 
   return (
     <div {...props}>
-      <div className='p-4'>
+      <div className='p-4 pt-8'>
         <Section title={lng.summary} icon='fa-address-card'>
           <br/>
           <blockquote className="text-lg font-sans">
@@ -61,6 +61,19 @@ export default function(props: any) {
         </Section>
 
         <Section title={lng.experience} icon='fa-suitcase'>
+
+          <br/>
+          <H2>
+            {lng.project_inweb_title}  
+          </H2>
+          { currentComponent }
+          { billableComponent }
+          <br/><br/>
+          <p>{lng.project_inweb_body}</p>
+          <br/>
+          <AptitudesList aptitudes={INTER_STRING.project_inweb} />
+          <br/>
+
           <br/>
           <H2>
             {lng.project_tmob_title}  
@@ -75,6 +88,22 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_tmob_apts} />
           <br/>
+
+          <br/>
+          <H2>
+            {lng.project_tmob_title}  
+          </H2>
+          { currentComponent }
+          { billableComponent }
+          <br/><br/>
+          <TextWithButton>
+            <p>{lng.project_tmob_body}</p>
+            <YoutubeButton url='https://youtu.be/kW26LYynfwc'/>
+          </TextWithButton>
+          <br/>
+          <AptitudesList aptitudes={INTER_STRING.project_tmob_apts} />
+          <br/>
+
           <br/>
           <H2>
             {lng.project_tgeo_title}  
@@ -86,6 +115,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project1_tec} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_curriculumweb5_title}  
@@ -99,6 +129,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_curriculumweb5_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_ips_prototype_title}  
@@ -112,6 +143,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_ips_prototype_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_quickvorcio_title}  
@@ -122,6 +154,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_quickvorcio_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_tengoque_title}  
@@ -135,6 +168,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_tengoque_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_traingular_arbitraje_title}  
@@ -144,6 +178,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_traingular_arbitraje_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_kocoin_crawler_title}  
@@ -154,6 +189,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_kocoin_crawler_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_matitest_title}  
@@ -167,6 +203,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_matitest_apts} />
           <br/>
+
           <br/>
           <H2>
             {lng.project_abochat_title}  
@@ -177,6 +214,7 @@ export default function(props: any) {
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_abochat_apts} />
           <br/>
+          
           <br/>
           <H2>
             {lng.project_dragon_debate_title}  

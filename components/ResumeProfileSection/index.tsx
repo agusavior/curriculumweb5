@@ -45,7 +45,9 @@ function ResumeProfileSection(props: any) {
       <div className="pt-2 pb-2 min-w-max">
         <LanguageBar name={lng.spanish} percent={100}/>
         <LanguageBar name={lng.english} percent={80}/>
+        {/*
         <LanguageBar name={lng.german} percent={0}/>
+        */}
       </div>
 
 

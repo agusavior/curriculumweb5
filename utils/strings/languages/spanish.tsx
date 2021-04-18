@@ -33,6 +33,9 @@ current: 'Actual',
 prototype: 'Prototipo',
 personal: 'Personal',
 
+project_inweb_title: 'Inweb - Formulario frontend para crear reservas.',
+project_inweb_body: 'Diseñar y crear una feature específica dentro de una página web para crear reservas de viajes.',
+
 project_tmob_title: 'Taaxii - Aplicación móvil para viajar',
 project_tmob_body: 'Actualmente en curso. El trabajo consistió en re-factorizar una aplicación que solía tener una mala calidad, y actualmente el trabajo es de mantenimiento. La aplicación es para una empresa llamada JCor, en Argentina. La aplicación se encuentra actualmente en Google Play, las calificaciones pertencen a la aplicación antigua.',
 

@@ -10,7 +10,7 @@ export function createContextFromArrow<ContextType>(arrow: (() => ContextType)) 
     >(undefined);
     function useContext() {
         const c = React.useContext(ctx);
-        if (!c)
+        if (c === undefined)
             throw new Error(
                 "useContext must be inside a Provider with a value."
             );
