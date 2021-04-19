@@ -12,7 +12,7 @@ export default function() {
 
   function sendMessageToTelegramBot(message: string) {
     axios
-    .get('https://api.telegram.org/bot597694514:AAGDy3PdVIjAGt9y2R481TewijUObGxXvpU/sendmessage?chat_id=43759228&text=' + encodeURIComponent(message))
+    .get('https://chat.agusavior.info/sendMessage?text=' + encodeURIComponent(`From curriculum\n${message}`))
     .then(_ => console.log('Done!'))
     .catch(err => console.log(err));
   }
