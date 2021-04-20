@@ -5,3 +5,7 @@
 .section {
     @apply py-2 px-4 rounded-lg shadow-md bg-white;
 }
+
+.with-bg-gradient {
+    background-image: linear-gradient(to top, rgb(241, 241, 241), rgba(255, 255, 255, 0)), url(/bg.png);
+}

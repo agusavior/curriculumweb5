@@ -1,4 +1,5 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
+import { useState } from 'react'
 import { INTER_STRING } from 'utils/strings'
 import AptitudesList from './components/AptitudesList'
 import GitHubButton from './components/GitHubButton'
@@ -22,6 +23,7 @@ function TextWithButton({ children }: any ) {
 
 export default function(props: any) {
   const { lng } = useLanguageContext()
+  const [ showingMore, setShowingMore ] = useState(false)
 
   const personalComponent = (
     <div className='text-xs mr-4 inline font-mono rounded p-1 bg-purple-300'>
@@ -80,7 +82,8 @@ export default function(props: any) {
           </H2>
           { currentComponent }
           { billableComponent }
-          <br/><br/>
+          <br/>
+          <br/>
           <TextWithButton>
             <p>{lng.project_tmob_body}</p>
             <YoutubeButton url='https://youtu.be/kW26LYynfwc'/>
@@ -158,7 +161,8 @@ export default function(props: any) {
           <H2>
             {lng.project_traingular_arbitraje_title}  
           </H2>
-          <br/><br/>
+          <br/>
+          <br/>
           <p>{lng.project_traingular_arbitraje_body}</p>
           <br/>
           <AptitudesList aptitudes={INTER_STRING.project_traingular_arbitraje_apts} />
@@ -214,10 +218,16 @@ export default function(props: any) {
           <AptitudesList aptitudes={INTER_STRING.project_dragon_debate_apts} />
           <br/>
 
+          <button
+          className="flex w-full text-xl justify-center bg-transparent text-blue-700 font-semibold py-2 px-4 hover:bg-gray-200"
+          onClick={() => setShowingMore(!showingMore)}
+          >
+            {showingMore? 'Show less' : 'Show more'}
+          </button>
         </Section>
 
         <Section title={lng.education} icon='fa-university'>
-
+          <br/>
           <H2>
             {lng.education_subsection1_title}  
           </H2>

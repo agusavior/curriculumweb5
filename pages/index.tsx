@@ -4,7 +4,7 @@ import ResumeProfileSection from '@/components/ResumeProfileSection'
 
 const IndexPage = () => (
   <Layout title="Agustín's Resume">
-    <div className="text-base font-sans bg-gray-100 sm:p-4 md:p-8">
+    <div className="text-base font-sans with-bg-gradient sm:p-4 md:p-8">
 
       <div className="flex flex-row gap-4 flex-wrap sm:flex-nowrap">
 
