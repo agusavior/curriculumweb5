@@ -1,5 +1,3 @@
-import spanish from "./spanish"
-
 const english = {
 
 code: 'en',
@@ -8,7 +6,7 @@ summary: 'Summary',
 summary_body: 'Argentinian full stack developer with work experience developing mobile applications, and with extensive knowledge of different development tools.',
 
 citizenship: 'Italian citizenship',
-
+years_old: 'years old',
 language: 'Language',
 
 experience: 'Experience',
@@ -16,6 +14,9 @@ experience: 'Experience',
 education: 'Education',
 
 languages: 'Languages',
+
+show_more: 'Show more',
+show_less: 'Show less',
 
 programming_languages: 'Programming languages',
 programming: 'Programming',
@@ -63,7 +64,7 @@ project_tengoque_body: 'Telegram bot for managing reminders, using natural langa
 project_ips_prototype_title: 'IPS Prototype - Mobile App for Buying Tubes',
 project_ips_prototype_body: 'Mobile app prototype that was proposed to the Argentinian company IPS.',
 
-project_dragon_debate_title: 'Dragon Debate - Personal Website',
+project_dragon_debate_title: 'Dragon Debate - Website for personal use',
 project_dragon_debate_body: 'Website for personal use. Self-hosted. Used for storing personal \'debate audio files\'. It also had user authentication functionality which allowed creating users and signing in.',
 
 project_abochat_title: 'Abo-chat - Mobile App for Chatting with Lawyers',
@@ -87,4 +88,4 @@ english: 'English',
 german: 'German',
 }
 
-export default {...spanish, ...english}
+export default english;

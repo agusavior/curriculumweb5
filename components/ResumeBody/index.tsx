@@ -1,7 +1,9 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
+import { experiences } from '@/models/experience'
 import { useState } from 'react'
 import { INTER_STRING } from 'utils/strings'
 import AptitudesList from './components/AptitudesList'
+import Experience from './components/Experience'
 import GitHubButton from './components/GitHubButton'
 import Section from './components/Section'
 import YoutubeButton from './components/YoutubeButton'
@@ -63,7 +65,11 @@ export default function(props: any) {
         </Section>
 
         <Section title={lng.experience} icon='fa-suitcase'>
-
+          
+          { /* experiences.map((e, index) =>          TODO
+            <Experience experience={e} key={index} />
+          ) */ }
+          
           <br/>
           <H2>
             {lng.project_inweb_title}  

@@ -1,4 +1,6 @@
-export default {
+import english from "./english"
+
+const spanish = {
 code: 'es',
 continue: 'Continuar',
 cancel: 'Cancelar',
@@ -10,11 +12,14 @@ summary: 'Resumen',
 summary_body: 'Desarrollador fullstack argentino con experiencia laboral en aplicaciones móviles, con amplios conocimientos en diferentes herramientas de desarrollo.',
 
 citizenship: 'Ciudadanía italiana',
-
+years_old: 'años',
 watch_it_on_youtube: 'Ver en Youtube',
 open_repository: 'Ver repositorio',
 
 languages: 'Lenguajes',
+
+show_more: 'Ver más',
+show_less: 'Ver menos',
 
 contact_me: 'Contáctame',
 
@@ -23,7 +28,6 @@ contact_me_body_placeholder: 'Necesito una app',
 your_contact: 'Tu contacto',
 some_optional_message: 'Algún mensaje opcional',
 send: 'Enviar',
-
 
 programming_languages: 'Lenguajes de programación',
 programming: 'Programación',
@@ -90,4 +94,6 @@ spanish: 'Español',
 english: 'Inglés',
 german: 'Alemán',
 
-}
+};
+
+export default {...english, ...spanish};
