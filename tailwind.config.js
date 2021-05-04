@@ -23,6 +23,9 @@ module.exports = {
         '1': 1,
         '50': 50,
         '100': 100
+      },
+      outline: {
+        custom: '2px dotted #9aa4e3',
       }
     },
   },

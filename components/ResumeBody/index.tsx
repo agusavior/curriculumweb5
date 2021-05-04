@@ -1,7 +1,9 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
+import { experiences } from '@/models/experience'
 import { useState } from 'react'
 import { INTER_STRING } from 'utils/strings'
 import AptitudesList from './components/AptitudesList'
+import Experience from './components/ExperienceComponent'
 import GitHubButton from './components/GitHubButton'
 import Section from './components/Section'
 import YoutubeButton from './components/YoutubeButton'
@@ -21,7 +23,7 @@ function TextWithButton({ children }: any ) {
     </div>
 }
 
-export default function(props: any) {
+const Index = function(props: any) {
   const { lng } = useLanguageContext()
   const [ showingMore, setShowingMore ] = useState(false)
 
@@ -51,6 +53,7 @@ export default function(props: any) {
 
   return (
     <div {...props}>
+      
       <div className='p-4 pt-8'>
         <Section title={lng.summary} icon='fa-address-card'>
           <br/>
@@ -63,11 +66,14 @@ export default function(props: any) {
         </Section>
 
         <Section title={lng.experience} icon='fa-suitcase'>
-          
-          { /* experiences.map((e, index) =>          TODO
+          <br/>
+          {experiences.map((e, index) =>
             <Experience experience={e} key={index} />
-          ) */ }
-          
+          )}
+        </Section>
+
+        { false && 
+        <Section title={lng.experience} icon='fa-suitcase'>
           <br/>
           <H2>
             {lng.project_inweb_title}  
@@ -229,20 +235,14 @@ export default function(props: any) {
             {showingMore? 'Show less' : 'Show more'}
           </button>
         </Section>
+        }
 
         <Section title={lng.education} icon='fa-university'>
           <br/>
-          <H2>
-            {lng.education_subsection1_title}  
-          </H2>
-          <br/><br/>
+          <h3 className="my-2 font-bold text-xl text-primary-dark uppercase mb-6">{lng.education_subsection1_title}</h3>
           <p>{lng.eduaction_subsection1_body}</p>
           <br/>
-
-          <H2>
-            {lng.education_subsection2_title}  
-          </H2>
-          <br/><br/>
+          <h3 className="my-2 font-bold text-xl text-primary-dark uppercase mb-6">{lng.education_subsection2_title}</h3>
           <p>{lng.eduaction_subsection2_body}</p>
           <br/>
         </Section>
@@ -251,3 +251,5 @@ export default function(props: any) {
     
   )
 }
+
+export default Index;

@@ -6,16 +6,17 @@ type SectionProps = {
     children?: ReactNode
 }
   
-export default function({title, icon, children}: SectionProps) {
+const Section = function({title, icon, children}: SectionProps) {
     return (
         <>
-        <p className="text-3xl pb-4">
-        <i className={`fa ${icon} fa-fw w3-margin-right w3-xlarge text-primary`}></i>
+        <h1 className="text-3xl pb-4 text-primary uppercase font-bold">
+            <i className={`fa ${icon} fa-fw w3-margin-right w3-xlarge text-primary`}></i>
             {title}
-        </p>
+        </h1>
         {children}
         <div className='pb-8'/>
         </>
     )
 }
-  
+
+export default Section;

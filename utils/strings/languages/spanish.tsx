@@ -36,6 +36,12 @@ billable: 'Laboral',
 current: 'Actual',
 prototype: 'Prototipo',
 personal: 'Personal',
+teamwork: 'En equipo',
+
+experience0: 'Ingeniero de software',
+experience1: 'Freelancer y proyectos personales',
+experience2: 'Desarrollador mobile de android',
+experience3: 'Desarrollador de juegos',
 
 project_inweb_title: 'Inweb - Formulario frontend para crear reservas.',
 project_inweb_body: 'Diseñar y crear una feature específica dentro de una página web para crear reservas de viajes.',

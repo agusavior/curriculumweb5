@@ -1,49 +1,28 @@
-import { INTER_STRING } from "@/utils/strings"
 import { Language } from "@/utils/strings/languages"
+import { Project, projects } from "./project"
 
 export type Experience = {
     initDate: string
     finishDate: string | null
-    githubUrl?: string
-    youtubeUrl?: string
-    jobTitle: keyof Language
     title: keyof Language
-    body: keyof Language
-    important: boolean
-    aptitudes: string[]
-}
-
-export type Project = {
-    title: keyof Language
-    body: keyof Language
-    githubUrl?: string
-    youtubeUrl?: string
+    projects: Project[]
 }
 
 export const experiences: Experience[] = [
     {
-        initDate: '20-03-08',
-        finishDate: '20-03-08',
-        jobTitle: 'project_tmob_title',
-        title: 'project_tgeo_title',
-        body: 'project_tmob_body',
-        important: true,
-        aptitudes: INTER_STRING.project_matitest_apts
+        initDate: '19-05-20',
+        finishDate: '04-05-21',
+        title: 'experience0',
+        projects: [ projects.inweb, projects.tmob, projects.tgeo ]
     }, {
-        initDate: '20-03-08',
-        finishDate: '20-03-08',
-        jobTitle: 'project_tgeo_title',
-        title: 'project_tgeo_title',
-        body: 'project_tmob_body',
-        important: true,
-        aptitudes: INTER_STRING.project_matitest_apts
+        initDate: '29-05-18',
+        finishDate: '04-03-20',
+        title: 'experience1',
+        projects: [ projects.curriculum5, projects.kucoin, projects.tengoque, projects.triangular, projects.matitest, projects.dragondebate ]
     }, {
-        initDate: '20-03-08',
-        finishDate: '20-03-08',
-        jobTitle: 'project_tgeo_title',
-        title: 'project_tgeo_title',
-        body: 'project_tmob_body',
-        important: true,
-        aptitudes: INTER_STRING.project_matitest_apts
-    }
+        initDate: '28-12-17',
+        finishDate: '13-04-18',
+        title: 'experience2',
+        projects: [ projects.ips, projects.abochat, projects.quickvorcio ]
+    },
 ]

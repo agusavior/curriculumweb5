@@ -36,6 +36,12 @@ billable: 'Billable',
 current: 'Current',
 prototype: 'Prototype',
 personal: 'Personal',
+teamwork: 'Teamwork',
+
+experience0: 'Software engineer',
+experience1: 'Freelancer & Personal projects',
+experience2: 'Android mobile developer',
+experience3: 'Game developer',
 
 project_inweb_title: 'Inweb - Frontend form to create reservations',
 project_inweb_body: 'Design and build a specific feature inside a website for make trip reservations.',
