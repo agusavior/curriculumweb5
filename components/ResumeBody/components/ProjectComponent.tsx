@@ -41,7 +41,7 @@ const ProjectComponent = function({ project, index }: ProjectProps) {
 
     return (
         <div className="flex flex-row gap-4">
-            <div className={`w-0.5 flex-none my-1
+            <div className={`w-1 flex-none my-1
             ${((index % 2)===0) ? 'bg-primary-light' : 'bg-gray-400'}
             `}>
             </div>
