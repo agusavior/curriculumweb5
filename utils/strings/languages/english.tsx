@@ -55,7 +55,7 @@ project_tgeo_body: 'The job consists in maintaining and adding features to a mob
 project_curriculumweb5_title: 'This website - My Web Resume',
 project_curriculumweb5_body: 'This web application you are using. It is hosted on an Amazon server, and it uses a custom domain.',
 
-project_matitest_title: 'Small Node.js Back End',
+project_matitest_title: 'Express.js back-end for Authentication',
 project_matitest_body: 'Small back end for testing an encrypted authentication, capable of managing entities in a database, like users and tasks.',
 
 project_kocoin_crawler_title: 'KuCoin Crawler',

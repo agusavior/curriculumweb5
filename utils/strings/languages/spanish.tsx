@@ -56,7 +56,7 @@ project_tgeo_body: 'Actualmente en curso. El trabajo consiste en mantener y aña
 project_curriculumweb5_title: 'Esta página',
 project_curriculumweb5_body: 'Aplicación web responsiva que contiene este curriculum. Se encuentra hosteado en una instancia propia en servidores de Amazon.',
 
-project_matitest_title: 'Matitest - Pequeño backend',
+project_matitest_title: 'Matitest - Backend de autenticación',
 project_matitest_body: 'Pequeño backend de prueba, que se conecta a una base de datos y es capaz de administrar usuarios y tareas.',
 
 project_ips_prototype_title: 'Prototipo IPS - Aplicación móvil para comprar caños',
