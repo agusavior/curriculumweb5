@@ -48,15 +48,18 @@ const ProjectComponent = function({ project, index }: ProjectProps) {
 
             <div className="flex-1">
                 <div className="flex flex-col">
-                    <button
-                    className='focus:outline-custom flex-grow text-left'
-                    onClick={() => setExpanded(!expanded)}
-                    >
+                    <div className="flex flex-row">
                         <h4 className="py-2 font-semibold">
                             {lng[project.title]}
-
+                        </h4>
+                        <button
+                        className="focus:outline-custom text-left ml-4 pl-4
+                        hover:underline"
+                        onClick={() => setExpanded(!expanded)}
+                        >
+                        
                             <span
-                            className='hidden underline pl-4 select-none
+                            className='select-none
                             cursor-pointer text-primary-dark'
                             onClick={() => setExpanded(!expanded)}
                             >        
@@ -67,11 +70,10 @@ const ProjectComponent = function({ project, index }: ProjectProps) {
                             ${expanded? 'rotate-90': ''}
                             text-primary transition-transform duration-100`}
                             />
-                        </h4>
-                    </button>
+                        </button>
+                    </div>
 
                     { expanded && <div>
-                        
                     <TextWithButton>
                         <p className="">{lng[project.body]}</p>
                         <div>
