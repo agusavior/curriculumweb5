@@ -72,10 +72,10 @@ function ResumeProfileSection(props: any) {
           <PLanguageBar name="Typescript" percent={100}/>
           <PLanguageBar name="Java" percent={98}/>
           <PLanguageBar name="Javascript" percent={93}/>
-          <PLanguageBar name="Dart" percent={60}/>
+          <PLanguageBar name="Dart" percent={80}/>
           <div className={showMoreLenguages? "" : "hidden"}>
-            <PLanguageBar name="Go" percent={72}/>
-            <PLanguageBar name="PHP" percent={60}/>
+            <PLanguageBar name="Go" percent={50}/>
+            <PLanguageBar name="PHP" percent={50}/>
             <PLanguageBar name="C#" percent={85}/>
             <PLanguageBar name="C++" percent={20}/>
             <PLanguageBar name="C" percent={50}/>

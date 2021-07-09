@@ -11,9 +11,9 @@ export type Experience = {
 export const experiences: Experience[] = [
     {
         initDate: '19-05-20',
-        finishDate: '04-05-21',
+        finishDate: '09-07-21',
         title: 'experience0',
-        projects: [ projects.inweb, projects.tmob, projects.tgeo ]
+        projects: [ projects.famaf, projects.inweb, projects.tmob, projects.tgeo ]
     }, {
         initDate: '29-05-18',
         finishDate: '04-03-20',

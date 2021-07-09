@@ -23,7 +23,6 @@ const tags = {
         name: 'prototype',
         tailwindColor: 'bg-pink-300'
     } as Tag,
-    
     teamwork: {
         name: 'teamwork',
         tailwindColor: 'bg-red-300'
@@ -41,6 +40,13 @@ export type Project = {
 }
 
 export const projects = {
+    famaf: {
+        title: 'project_famaf_title',
+        body: 'project_famaf_body',
+        aptitudes: INTER_STRING.project_famaf,
+        important: true,
+        tags: [tags.billable,  tags.teamwork]
+    } as Project,
     inweb: {
         title: 'project_inweb_title',
         body: 'project_inweb_body',

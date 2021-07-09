@@ -43,14 +43,17 @@ experience1: 'Freelancer y proyectos personales',
 experience2: 'Desarrollador mobile de android',
 experience3: 'Desarrollador de juegos',
 
-project_inweb_title: 'Inweb - Formulario frontend para crear reservas.',
+project_famaf_title: 'Famaf - Aplicación móvil.',
+project_famaf_body: 'Desarrollar diferentes features en una aplicación que sirve para controlar el acceso a una institución. La app se encuentra en Play Store y App Store.',
+
+project_inweb_title: 'Inweb - Frontend para crear reservas.',
 project_inweb_body: 'Diseñar y crear una feature específica dentro de una página web para crear reservas de viajes.',
 
-project_tmob_title: 'Taaxii - Aplicación móvil para viajar',
-project_tmob_body: 'Actualmente en curso. El trabajo consistió en re-factorizar una aplicación que solía tener una mala calidad, y actualmente el trabajo es de mantenimiento. La aplicación es para una empresa llamada JCor, en Argentina. La aplicación se encuentra actualmente en Google Play, las calificaciones pertencen a la aplicación antigua.',
+project_tmob_title: 'InPunto - Aplicación móvil para viajar',
+project_tmob_body: 'El trabajo consistió en re-factorizar una aplicación que solía tener una mala calidad, y actualmente el trabajo es de mantenimiento. La aplicación es para una empresa llamada Taaxii, en Argentina. La aplicación se encuentra actualmente en Google Play.',
 
 project_tgeo_title: 'Tgeo - Aplicación móvil para choferes',
-project_tgeo_body: 'Actualmente en curso. El trabajo consiste en mantener y añadir funcionalidades a una aplicación que es la utilizada por los choferes que corresponden a la aplicación Taaxii.',
+project_tgeo_body: 'El trabajo consiste en mantener y añadir funcionalidades a una aplicación que es la utilizada por los choferes que corresponden a la aplicación InPunto.',
 
 
 project_curriculumweb5_title: 'Esta página',

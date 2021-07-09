@@ -12,7 +12,7 @@ type ProjectProps = {
 
 function TextWithButton({ children }: any ) {
     return <div className='md:flex flex-row justify-between'>
-      <p>{children[0]}</p>
+        {children[0]}
         <div className='flex-none'>
           {children[1]}
         </div>
@@ -54,7 +54,7 @@ const ProjectComponent = function({ project, index }: ProjectProps) {
                         </h4>
                         <button
                         className="focus:outline-custom text-left ml-4 pl-4
-                        hover:underline"
+                        hover:underline whitespace-nowrap"
                         onClick={() => setExpanded(!expanded)}
                         >
                         

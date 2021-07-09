@@ -43,14 +43,20 @@ experience1: 'Freelancer & Personal projects',
 experience2: 'Android mobile developer',
 experience3: 'Game developer',
 
-project_inweb_title: 'Inweb - Frontend form to create reservations',
-project_inweb_body: 'Design and build a specific feature inside a website for make trip reservations.',
+project_marina_scanner_title: 'QR Scanner - Mobile App',
+project_marina_scanner_body: 'Build an app with a QR scanner for control the access to a theater called La Marina.',
 
-project_tmob_title: 'Taaxii - Mobile App for Transportation',
-project_tmob_body: 'The job consisted in refactoring an application. It mainly consists of maintenance tasks now. The app owner is an Argentinian company called Taaxii. Today the app can be found on Google Play but its use is restricted to a few Argentinian clients. Its Google Play rating is low because of its old version.',
+project_famaf_title: 'Famaf - Mobile App',
+project_famaf_body: 'Develop on different features over an app that is used for control the access of an University. You can find it on Play Store and App Store.',
+
+project_inweb_title: 'Inweb - Web frontend form to create reservations',
+project_inweb_body: 'Design and build a feature inside a website for make trip reservations. Corporate: Taaxii.',
+
+project_tmob_title: 'InPunto - Mobile App for Transportation',
+project_tmob_body: 'The job consisted in refactoring an application. It mainly consists of maintenance tasks now. The app owner is an Argentinian company called Taaxii. Today the app can be found on Google Play.',
 
 project_tgeo_title: 'Tgeo - Mobile App for Drivers',
-project_tgeo_body: 'The job consists in maintaining and adding features to a mobile app used by drivers (of the Taaxii app) to match with people.',
+project_tgeo_body: 'The job consists in maintaining and adding features to a mobile app used by drivers (of the InPunto app) to match with people.',
 
 project_curriculumweb5_title: 'This website - My Web Resume',
 project_curriculumweb5_body: 'This web application you are using. It is hosted on an Amazon server, and it uses a custom domain.',
