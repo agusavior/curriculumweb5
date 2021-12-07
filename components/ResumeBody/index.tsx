@@ -1,31 +1,11 @@
 import { useLanguageContext } from '@/contexts/LanguajeContext'
 import { experiences } from '@/models/experience'
-import { useState } from 'react'
-import { INTER_STRING } from 'utils/strings'
-import AptitudesList from './components/AptitudesList'
 import Experience from './components/ExperienceComponent'
-import GitHubButton from './components/GitHubButton'
 import Section from './components/Section'
-import YoutubeButton from './components/YoutubeButton'
-
-function H2({ children }: any ) {
-  return <p className="text-xl font-semibold inline mr-4">
-    { children }  
-  </p>
-}
-
-function TextWithButton({ children }: any ) {
-  return <div className='md:flex flex-row justify-between'>
-    <p>{children[0]}</p>
-      <div className='flex-none'>
-        {children[1]}
-      </div>
-    </div>
-}
 
 const Index = function(props: any) {
   const { lng } = useLanguageContext()
-  
+
   return (
     <div {...props}>
       
