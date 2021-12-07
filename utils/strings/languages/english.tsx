@@ -3,9 +3,10 @@ const english = {
 code: 'en',
 
 summary: 'Summary',
-summary_body: 'Argentinian full stack developer with work experience developing mobile applications, and with extensive knowledge of different development tools.',
+summary_body: 'Software engineer with extensive knowledge of different development tools.',
 
 citizenship: 'Italian citizenship',
+country: 'Germany',
 years_old: 'years old',
 language: 'Language',
 
@@ -43,6 +44,9 @@ experience1: 'Freelancer & Personal projects',
 experience2: 'Android mobile developer',
 experience3: 'Game developer',
 
+project_fanaty_title: 'Fanaty - Backend for processing videos',
+project_fanaty_body: 'Backend for control IoT cameras and processing videos.',
+
 project_marina_scanner_title: 'QR Scanner - Mobile App',
 project_marina_scanner_body: 'Build an app with a QR scanner for control the access to a theater called La Marina.',
 
@@ -59,7 +63,7 @@ project_tgeo_title: 'Tgeo - Mobile App for Drivers',
 project_tgeo_body: 'The job consists in maintaining and adding features to a mobile app used by drivers (of the InPunto app) to match with people.',
 
 project_curriculumweb5_title: 'This website - My Web Resume',
-project_curriculumweb5_body: 'This web application you are using. It is hosted on an Amazon server, and it uses a custom domain.',
+project_curriculumweb5_body: 'This web application you are using. It is hosted on an Amazon server, and it uses a custom domain. I\'ve made it from scratch, with no templates.',
 
 project_matitest_title: 'Express.js back-end for Authentication',
 project_matitest_body: 'Small back end for testing an encrypted authentication, capable of managing entities in a database, like users and tasks.',
@@ -71,7 +75,7 @@ project_traingular_arbitraje_title: 'Cryptocurrency Triangular Arbitrage',
 project_traingular_arbitraje_body: 'A bot that looks for triangular arbitrage opportunities. It was connected to the Coin Bene exchange. The project was halted due to lack of profits.',
 
 project_tengoque_title: 'Tengoque - Telegram Bot',
-project_tengoque_body: 'Telegram bot for managing reminders, using natural langage to process each of them. You can find it by searching @tengo_que_bot on Telegram.',
+project_tengoque_body: 'Telegram bot for managing reminders, using natural language to process each of them. You can find it by searching @tengo_que_bot on Telegram.',
 
 project_ips_prototype_title: 'IPS Prototype - Mobile App for Buying Tubes',
 project_ips_prototype_body: 'Mobile app prototype that was proposed to the Argentinian company IPS.',

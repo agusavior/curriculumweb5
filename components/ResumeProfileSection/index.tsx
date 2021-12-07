@@ -27,11 +27,11 @@ function ResumeProfileSection(props: any) {
       
       <div className='min-w-max'>
         <SocialItem image='fa fa-birthday-cake' value={`26 ${lng.years_old}`} />
-        <SocialItem image='fa fa-home' value='Córdoba - Argentina' />
+        <SocialItem image='fa fa-home' value={`Düsseldorf - ${lng.country}`} />
         <SocialItem image='fa fa-envelope' value='agusavior@gmail.com' />
-        <SocialItem image='fa fa-phone' value='+5493512442259' />
+        <SocialItem image='fa fa-phone' value='+49 176 82261640' />
         <SocialItem image='fab fa-telegram' value='@agusavior' />
-        <SocialItem image='fab fa-whatsapp' value='+5493512442259' />
+        <SocialItem image='fab fa-whatsapp' value='+49 176 82261640' />
         <SocialItem image='fa fa-passport' value={lng.citizenship} />
       </div>
 
@@ -45,9 +45,8 @@ function ResumeProfileSection(props: any) {
         <div className="pt-2 pb-2 min-w-max">
           <LanguageBar name={lng.spanish} percent={100}/>
           <LanguageBar name={lng.english} percent={80}/>
-          {/*
-          <LanguageBar name={lng.german} percent={0}/>
-          */}
+          <LanguageBar name={lng.german} percent={15}/>
+          
         </div>
 
         <div className="w3-light-grey w3-round-xlarge">
@@ -70,7 +69,7 @@ function ResumeProfileSection(props: any) {
           <PLanguageBar name="Python" percent={100}/>
           <PLanguageBar name="Kotlin" percent={100}/>
           <PLanguageBar name="Typescript" percent={100}/>
-          <PLanguageBar name="Java" percent={98}/>
+          <PLanguageBar name="Java" percent={95}/>
           <PLanguageBar name="Javascript" percent={93}/>
           <PLanguageBar name="Dart" percent={80}/>
           <div className={showMoreLenguages? "" : "hidden"}>

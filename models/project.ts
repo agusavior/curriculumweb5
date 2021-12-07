@@ -36,15 +36,26 @@ export type Project = {
     aptitudes: string[]
     githubUrl?: string
     youtubeUrl?: string
+    url?: string,
     tags: Tag[]
 }
 
 export const projects = {
+    fanaty: {
+        title: 'project_fanaty_title',
+        body: 'project_fanaty_body',
+        aptitudes: INTER_STRING.project_fanaty,
+        important: true,
+        url: 'https://www.fanaty.com/',
+        youtubeUrl: 'https://youtu.be/kVRfpbZCr_w',
+        tags: [tags.billable, tags.current, tags.teamwork]
+    } as Project,
     famaf: {
         title: 'project_famaf_title',
         body: 'project_famaf_body',
         aptitudes: INTER_STRING.project_famaf,
         important: true,
+        url: 'https://www.famaf.unc.edu.ar/noticias/nueva-app-para-ingresoegreso-a-la-famaf/',
         tags: [tags.billable,  tags.teamwork]
     } as Project,
     inweb: {
@@ -52,7 +63,9 @@ export const projects = {
         body: 'project_inweb_body',
         aptitudes: INTER_STRING.project_inweb,
         important: true,
-        tags: [tags.billable, tags.current,  tags.teamwork]
+        youtubeUrl: 'https://youtu.be/kVRfpbZCr_w',
+        url: 'https://inpunto.la/',
+        tags: [tags.billable, tags.teamwork]
     } as Project,
     tmob: {
         title: 'project_tmob_title',
@@ -60,6 +73,7 @@ export const projects = {
         aptitudes: INTER_STRING.project_tmob_apts,
         important: true,
         youtubeUrl: 'https://youtu.be/kW26LYynfwc',
+        url: 'https://inpunto.la/',
         tags: [tags.billable]
     } as Project,
     tgeo: {
@@ -67,6 +81,7 @@ export const projects = {
         body: 'project_tgeo_body',
         aptitudes: INTER_STRING.project_tgeo_apts,
         important: true,
+        url: 'https://inpunto.la/',
         tags: [tags.billable, tags.teamwork]
     } as Project,
     curriculum5: {
@@ -75,6 +90,7 @@ export const projects = {
         aptitudes: INTER_STRING.project_curriculumweb5_apts,
         important: true,
         githubUrl: 'https://github.com/agusavior/curriculumweb5',
+        url: 'https://https://resume.agusavior.info/',
         tags: [tags.personal]
     } as Project,
     ips: {
@@ -83,6 +99,7 @@ export const projects = {
         aptitudes: INTER_STRING.project_ips_prototype_apts,
         important: true,
         youtubeUrl: 'https://youtu.be/8b4pavgy24U',
+        url: 'https://ips-arg.com/',
         tags: [tags.prototype]
     } as Project,
     quickvorcio: {
@@ -90,6 +107,8 @@ export const projects = {
         body: 'project_quickvorcio_body',
         aptitudes: INTER_STRING.project_quickvorcio_apts,
         important: true,
+        url: 'https://www.infobae.com/economia/finanzas-y-negocios/2018/02/23/quickvorcio-como-funciona-la-app-cordobesa-que-promete-divorcios-express-desde-el-celular/',
+        youtubeUrl: 'https://www.youtube.com/watch?v=9HPKRkLkoyI&ab_channel=InfoPideas',
         tags: [tags.billable, tags.teamwork]
     } as Project,
     tengoque: {

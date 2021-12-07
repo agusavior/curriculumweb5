@@ -75,8 +75,13 @@ const ProjectComponent = function({ project, index }: ProjectProps) {
 
                     { expanded && <div>
                     <TextWithButton>
-                        <p className="">{lng[project.body]}</p>
                         <div>
+                            <p className="pt-4">{lng[project.body]}</p>
+                            { project.url &&  <p className="py-2 underline text-blue-800">
+                            <a target="_blank" href={ project.url }>Open website 🠺</a>
+                            </p> }
+                        </div>
+                        <div className="flex flex-col">
                             { project.githubUrl && <GitHubButton url={project.githubUrl}/> }
                             { project.youtubeUrl && <YoutubeButton url={project.youtubeUrl}/> }
                         </div>

@@ -9,9 +9,10 @@ experience: 'Experiencia',
 language: 'Lenguaje',
 
 summary: 'Resumen',
-summary_body: 'Desarrollador fullstack argentino con experiencia laboral en aplicaciones móviles, con amplios conocimientos en diferentes herramientas de desarrollo.',
+summary_body: 'Ingeniero de software con amplios conocimientos en diferentes herramientas del desarrollo.',
 
 citizenship: 'Ciudadanía italiana',
+country: 'Alemania',
 years_old: 'años',
 watch_it_on_youtube: 'Ver en Youtube',
 open_repository: 'Ver repositorio',
@@ -43,10 +44,10 @@ experience1: 'Freelancer y proyectos personales',
 experience2: 'Desarrollador mobile de android',
 experience3: 'Desarrollador de juegos',
 
-project_famaf_title: 'Famaf - Aplicación móvil.',
+project_famaf_title: 'Famaf - Aplicación móvil',
 project_famaf_body: 'Desarrollar diferentes features en una aplicación que sirve para controlar el acceso a una institución. La app se encuentra en Play Store y App Store.',
 
-project_inweb_title: 'Inweb - Frontend para crear reservas.',
+project_inweb_title: 'Inweb - Frontend para crear reservas',
 project_inweb_body: 'Diseñar y crear una feature específica dentro de una página web para crear reservas de viajes.',
 
 project_tmob_title: 'InPunto - Aplicación móvil para viajar',
