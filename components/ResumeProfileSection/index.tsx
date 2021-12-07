@@ -20,7 +20,7 @@ function ResumeProfileSection(props: any) {
 
       <div className="p-4 flex justify-center">
         <div className="max-w-xs">
-          <img className="rounded-full shadow border-black" alt="Picture" src='/agus.png' />
+          <img className="rounded-full shadow border-black" alt="Picture" src='/agus.jpg' />
           <p className="pt-4 text-xl font-semibold text-center" >Agustín Javier Orlando </p>
         </div>
       </div>
